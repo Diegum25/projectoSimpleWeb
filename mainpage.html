@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>About me :D</title>
+    <script src="./src/comment.js" defer></script>
+</head>
+<body onload="loadComments()">
+    <div id="main">
+        <h1>Welcome to my Website :D</h1>
+        <p>About me:</p>
+        <div id="portfolio">
+            <p>example</p>
+        </div>
+        <p>Comments:</p>
+        <div id="comments">
+            <form id="submitComment">
+                <input type="text" name="comment" placeholder="Comment" required />
+                <button type="submit">Submit</button>
+            </form>
+            <div id="actualComments"></div>
+        </div>
+    </div>
+</body>
+</html>

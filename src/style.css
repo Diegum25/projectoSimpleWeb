@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centers horizontally (main axis) */
+  align-items: center;     /* Centers vertically (cross axis) */
+  height: 100vh;           /* Optional: sets container height to full viewport height */
+  flex-direction: column;
+
+  padding: 0px;
+  margin: 0px;
+  background-image: url("/src/200w.gif");
+  background-size: 25%;
+  color: rgb(0, 0, 0);
+}
+
+#main{
+  margin: 0px;
+  width: 920px;
+  height: 100%;
+  background-color: rgb(10, 10, 10);
+  border-style: solid;
+  border-color: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+}
