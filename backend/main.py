@@ -25,10 +25,6 @@ class Comment(db.Model):
 def hello_world():
     return jsonify({"status": "ok"})
 
-@app.route("/shit", methods = ["POST", "GET"])
-def shit():
-    return jsonify({"time": f"{datetime.now()}"})
-
 @app.route("/getcomments", methods=["GET"])
 def get_comments():
     comments = Comment.query.order_by(Comment.id.desc()).all()
