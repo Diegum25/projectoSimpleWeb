@@ -1,12 +1,16 @@
 # Instrucciones
 
+## Frontend
+
 Con vite
 
 ```
 npm run dev
 ```
 
-y con flask
+## Backend & sqlite DB
+
+Con flask
 
 ```
 flask --app backend/main run
